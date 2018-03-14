@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*  border: 3px solid green; */
+}
+.page{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.game-page{
+  height: 800px;
+  display: block;
+  margin: 0 auto;
+
+}
+.banner{
+  width: 100%;
+  display: block;
+  background-color: #5995DA;
+  height: 100px;
+}
+.banner-image{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  max-width: 100%;
+}
+.game_box{
+     margin: 0 auto;
+  /*   width: 700px; */
+    width: 60%;
+     margin-top: -40px;
+
+}
+.game{
+
+}
+.game_desc{
+  margin: 0 auto;
+  display: block;
+  font-family: PressStart2P;
+  color: white;
+  /*width: 675px;*/
+  width: 90%;
+}
+.img{
+  height: auto;
+
+  display; flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+/*  border: 3px solid green; */
+
+}
+.imgdesc{
+/*  border: 3px solid red; */
+  color: white;
+  font-size: 25px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: PressStart2P;
+
+}
+a:visited{
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+.section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.feature-1{
+
+
+}
+.feature-2{
+
+
+}
+.feature-3{
+
+
+}
+@font-face{
+   font-family: PressStart2P; src: url('PressStart2P.ttf');
+
+}
+/*Tablet styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+  .feature-1,
+  .feature-2,
+  .feature-3{
+    width: 50%;
+  }
+}
+/*Desktop styles*/
+@media only screen and (min-width: 961px){
+  .page{
+    margin: 0 auto;
+    color: black;
+    height: 640px;
+
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3{
+  width: 33.3%;
+
+
+  }
+}
