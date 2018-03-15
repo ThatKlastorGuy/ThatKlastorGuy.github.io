@@ -37,8 +37,8 @@
 
 }
 .game{
-  height: auto;
-  width: auto;
+  height: 800px auto;
+  width: 600px auto;
 }
 .game_desc{
   margin: 0 auto;
