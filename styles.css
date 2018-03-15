@@ -37,7 +37,7 @@
 
 }
 .game{
-position: flex;
+position: block;
 }
 .game_desc{
   margin: 0 auto;
