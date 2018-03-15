@@ -32,11 +32,11 @@
 .game_box{
      margin: 0 auto;
   /*   width: 700px; */
-    /* width: 60%; */ 
+    /* width: 60%; */
      margin-top: -40px;
 }
 .game{
-
+width: 50%;
 }
 .game_desc{
   margin: 0 auto;
