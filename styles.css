@@ -38,6 +38,7 @@
 }
 .game{
 overflow: hidden;
+position: fixed;
 }
 .game_desc{
   margin: 0 auto;
